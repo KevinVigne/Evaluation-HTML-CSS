@@ -55,20 +55,71 @@
 .brown{
    background-color: #AC7961;
 }
+.brownText{
+   color: #AC7961;
+}
 .darkGrey{
    background-color:#1E1E1E;
 }
+/*Application de la couleur à l'entête*/
 header{
     background-color: #FAE5D1;
 }
+/*Organisation des items dans la barre de navigation*/
 .nav{
     display: flex;
     justify-content: space-around;
 }
-
+/*Création du bouton arrondis sur les coin bas gauche et bas droit dans la barre de navigation */
 nav a{
     text-decoration:  none;
     padding:10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+/*Ajoute une marge intérieur au dessus de l'item*/
+.paddingTop{
+    padding-top:15px;
+}
+/*Ajoute une marge extérieure au dessus de l'item*/
+.marginTop{
+    margin-top: 5%;
+}
+/*Ajoute une marge extérieure sur le côté gauche de l'item*/
+.marginLeft{
+    margin-left: 25px;
+}
+/*Création de la Bordure des description et images d'objets en vente*/
+.border{
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: #AC7961;
+}
+/*Augmente la taille du texte*/
+.subTitle{
+    font-size: 20px;
+}
+.text{
+    font-size: 15px;
+}
+/*Met en italique */
+.italic{
+    font-style: italic;
+}
+/*Réduit la taille de la police*/
+.small{
+    font-size: 10px;
+}
+/*Ajustement de la position des textes */
+span{
+    margin:0;
+}
+.white{
+    color: white;
+}
+.padding{
+    padding: 10px;
+}
+.radius{
+    border-radius: 20px;
 }
