@@ -126,17 +126,45 @@ span{
 .marginBottom{
     margin-bottom: 50px;
 }
-footer img{
-    display: flex;
-    position: relative;
-    bottom: 70px;
-    border-radius: 10px;
-}
 .bottom{
     display: flex;
     align-items: flex-end;
 }
 footer i{
-    height: 100px;
     color: white;
+}
+.logo{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    border-radius: 10px;
+    width: 5%;
+}
+/*On passe au style Version Mobile*/
+@media screen and (max-width:480px) {
+    .col-3{width: 100%;}
+    .col-4{width: 100%;}
+    .col-5{width: 100%;}
+    .col-6{width: 100%;}
+    .col-8{width: 100%;}
+    nav a{
+    text-decoration:  none;
+    padding:0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    }
+    footer img{
+        bottom: 30px;
+    }
+    .nav{
+        display: flex ;
+        justify-content: center;
+    }
+    nav ul{
+        padding: 0;
+    }
+    .logo{
+        width: 15%;
+        bottom: 30px;
+    }
 }
