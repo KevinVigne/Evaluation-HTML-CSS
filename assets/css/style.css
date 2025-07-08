@@ -158,7 +158,8 @@ footer i{
     }
     .nav{
         display: flex ;
-        justify-content: center;
+        flex-direction: column;
+        width: 100%;
     }
     nav ul{
         padding: 0;
@@ -166,5 +167,11 @@ footer i{
     .logo{
         width: 15%;
         bottom: 30px;
+    }
+    nav li{
+        width: 100%;
+        background-color: #1E1E1E;
+        text-align: center;
+        padding: 8px 0;
     }
 }
