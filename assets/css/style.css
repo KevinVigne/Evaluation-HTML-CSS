@@ -114,18 +114,23 @@ nav a{
 span{
     margin:0;
 }
+/*On met l'écriture en blanc*/
 .white{
     color: white;
 }
+/*Marge intérieure de tout les côtés*/
 .padding{
     padding: 10px;
 }
+/*Un arrondissement d'une bordure*/
 .radius{
     border-radius: 20px;
 }
+/*Marge en dessous de l'item*/
 .marginBottom{
     margin-bottom: 50px;
 }
+/*On place l'objet en bas de son container*/
 .bottom{
     display: flex;
     align-items: flex-end;
@@ -133,6 +138,7 @@ span{
 footer i{
     color: white;
 }
+/*On place le logo entre le footer et le main*/
 .logo{
     display: flex;
     position: relative;
@@ -147,27 +153,29 @@ footer i{
     .col-5{width: 100%;}
     .col-6{width: 100%;}
     .col-8{width: 100%;}
+    /*On enlève les bordures arrondies*/
     nav a{
     text-decoration:  none;
     padding:0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     }
-    footer img{
-        bottom: 30px;
-    }
+    /*On replace la barre de navigation*/
     .nav{
         display: flex ;
         flex-direction: column;
         width: 100%;
     }
+    /*On enlève la marge intérieure*/
     nav ul{
         padding: 0;
     }
+    /*On replace l'image entre le footer et le main*/
     .logo{
         width: 15%;
         bottom: 30px;
     }
+    /*On met la barre de navigation sur toute la largeur et en colonne*/
     nav li{
         width: 100%;
         background-color: #1E1E1E;
